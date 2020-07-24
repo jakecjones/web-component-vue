@@ -2,10 +2,12 @@
   "name": "wc-example",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/jake-counter.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "wc-build": "vue-cli-service build --target wc --name jake-counter src/App.vue --inline-vue"
   },
   "dependencies": {
     "core-js": "^3.6.5",
